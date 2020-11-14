@@ -121,8 +121,13 @@
               "devServerTarget": "lista-vai:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "lista-vai"
 }
